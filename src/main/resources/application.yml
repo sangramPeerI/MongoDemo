@@ -1,0 +1,20 @@
+## Server properties
+server:
+  port: 8088
+
+## Logging properties
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: INFO
+
+## Spring data, mvc properties
+spring:
+  data:
+    mongodb:
+      uri: 
+      port: 27017
+      database: Comm-Tracker-Test
+      collection: summary
+  mvc:
+    pathmatch:
+      matching-strategy=ant_path_matcher:
